@@ -1,0 +1,158 @@
+    body {
+        /*
+    background-image: url(images/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+*/
+        background-color: #fafafa;
+    }
+    
+    h3 {
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+    
+    .about {
+        background-image: url(../images/technology.jpeg);
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .rock {
+        background-image: url(../images/rockstar2.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .home {
+        height: 100vh;
+    }
+    
+    .phrase {
+        padding-top: 20%;
+        /*    height: 100%;*/
+    }
+    
+    @font-face {
+        font-family: INTfont;
+        src: url(../Font/light.otf);
+    }
+    
+    @font-face {
+        font-family: HomeFont;
+        src: url(../Font/Debby.otf);
+    }
+    
+    .liner {
+        font-family: HomeFont;
+        font-size: 10em;
+        text-align: center;
+    }
+    
+    h1 {
+        font-family: INTfont;
+        color: black;
+        letter-spacing: 5px;
+        font-size: 4em;
+    }
+    
+    ._1 {
+        background-image: url(../images/INT.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: local;
+        width: 350px;
+        height: 350px;
+        margin: 20px;
+    }
+    
+    ._2 {
+        background-image: url(../images/descarga.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: local;
+        background-position: 50%;
+        width: 350px;
+        height: 350px;
+        margin: 20px;
+    }
+    
+    ._3 {
+        background-image: url(../images/special.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: local;
+        width: 350px;
+        height: 350px;
+        margin: 20px;
+    }
+    
+    ._4 {
+        background-image: url(../images/moments.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: local;
+        background-position: 50%;
+        width: 350px;
+        height: 350px;
+        margin: 20px;
+    }
+    
+    ._5 {
+        background-image: url(../images/rockstar.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: local;
+        background-position: 50%;
+        width: 350px;
+        height: 350px;
+        margin: 20px;
+    }
+    
+    ._6 {
+        background-image: url(../images/coffee.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: local;
+        background-position: 50%;
+        width: 350px;
+        height: 350px;
+        margin: 20px;
+    }
+    
+    .btn.outline {
+        background: none;
+        color: black;
+        border: 5px solid black;
+        border-radius: 0;
+    }
+    
+    .btn.outline:hover {
+        background: black;
+        color: white;
+        border-color: none;
+        border-radius: 0;
+    }
+    
+    .linkedin-icon {
+        text-align: center;
+    }
+    
+    i {
+        color: #323232;
+    }
+    
+    i:hover {
+        color: #007bb5;
+        transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -webkit-transition: .25s ease-in-out;
+    }
+    
+    img {
+        height: 100%;
+        width: 100%;
+    }
